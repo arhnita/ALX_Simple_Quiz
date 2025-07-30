@@ -5,7 +5,7 @@ function checkAnswer(){
     const userAnswer = selectedOption.value;
 
     //answer comparison
-    if(correctAnswer === userAnswer){
+    if(userAnswer === correctAnswer){
         formFeedback.textContent = 'Correct! Well done.'
     } else{
         formFeedback.textContent = `That's incorrect. Try again!`;
